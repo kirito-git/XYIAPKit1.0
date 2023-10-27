@@ -55,5 +55,8 @@
 
 - (BOOL)isValidWithPersistentProductId:(NSString *)productId applicationUsername:(NSString *)applicationUsername;
 
-
+/**
+ 是否存在历史购买记录
+ */
+- (BOOL)isExistHistory:(NSString *)productId;
 @end
